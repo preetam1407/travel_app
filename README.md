@@ -1,5 +1,12 @@
 # Travel App
+# Travel App
 
+## Steps to run the App
+**Step 1:** Required libraries Installation.      
+- Run the following command in terminal: 
+```
+ npm install
+```
 ## Steps to run the App
 **Step 1:** Required libraries Installation.      
 - Run the following command in terminal: 
