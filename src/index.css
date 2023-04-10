@@ -10,16 +10,35 @@ font-family: 'Work Sans', sans-serif;
   font-family: 'Work Sans', sans-serif;
   margin: 0;
   padding: 0;
-  background:rgba(21, 21, 21, 0.9) url("https://steamcdn-a.akamaihd.net/steamcommunity/public/images/items/1051410/d5251d5944796f3e3bb926c254cbd5ec2bdcb7c8.jpg");
-  color: white;
+  color: rgb(255, 255, 255);
  }
  a{
   text-decoration: none;
  }
 
- .main-container{
-  margin:0 10vw;
- }
+
+  /* .................... */
+/* Background img */
+/* .................... */
+#head {
+  height: 100%;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background: rgba(0, 0, 0, 0.6) url(./images/background.png);
+  background-size: cover;
+  background-blend-mode: overlay;
+  color: white;
+  z-index: 0;
+}
+
+.banner-content {
+  justify-content: center;
+  margin: 20px;
+
+}
 
  .page-heading h1{
   text-align: center;
@@ -49,7 +68,7 @@ font-family: 'Work Sans', sans-serif;
 
 
  table img{
-  width: 40px;
+  width: 50px;
  }
 
 table {
@@ -57,12 +76,19 @@ table {
     border-collapse: collapse;
     width: 100%;
     margin-bottom: 20px;
+    
   }
   
   td {
     border: 1px solid #ffffff;
-    text-align: left;
+    text-align: center;
     width: 20%;
     padding: 15px;
   }
   
+
+
+
+
+
+

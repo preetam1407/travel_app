@@ -7,7 +7,9 @@ const App = () => {
   return (
     <Router>
       <Routes>
+        {/* Define the Home component to render when the root URL is accessed */}
         <Route exact path="/" element={<Home/>}/> 
+        {/* Define the ModeChoice component to render when "/mode-choice" is accessed */}
         <Route exact path="/mode-choice" element={<ModeChoice/>} />
       </Routes>
     </Router>
